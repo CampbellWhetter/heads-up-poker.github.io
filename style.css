@@ -1,0 +1,119 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/*Style the header*/
+header {
+  position: fixed; 
+  margin-left: auto;
+  margin-right: auto;
+  left: 0px;
+  right: 0px;
+  top: 0px; 
+  width: 100%;
+  height: 5vw; 
+  text-align: center;
+  z-index: 4;
+  font-size: 1.35vw;
+  background-color: black;
+}
+
+/*Style the logo on the header*/
+#logo {
+  height: 5vw;
+}
+
+/*Create a div for the background picture.*/
+div.background-picture {
+  position: fixed;
+  display: flex;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  z-index: 2;
+}
+
+/*Style the background image. Use object-fit to ensure that  
+the background remains center and fills the page*/
+.background-picture img {
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+/*Style the canvas. Set the z-index to above the background image but below the header and footer.*/
+canvas {
+  display: block;
+  z-index: 3;
+}
+
+
+/*Style the sketch-container. Set the z-index to above the background image but below the header and footer. Use position to ensure that the canvas stays in the center of the screen*/
+#sketch-container {
+  position: relative;
+  z-index: 3;
+}
+
+/*Style the opening screen buttons. Set the z-index to be above the canvas.*/
+.openingScreenButtons {
+  z-index: 6;
+  border: none;
+  color: black;
+  background-color: #D1262A;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.5vw;
+  font-weight: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*Style the action buttons. Set the z-index to be above the canvas*/
+.actionButtons {
+  z-index: 7;
+  border: none;
+  color: #D1262A;
+  background-color: black;
+  font-family: 'Wix Madefor Text', sans-serif;
+  font-size: 1.5vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+/*Style the slider. Ensure that the z-index is set so that the 
+slider is on top of the canvas.*/
+input {
+  z-index: 9;
+}
+
+/*Style the links to always be the same colour, no matter the 
+state*/
+a:link, a:visited, a:hover, a:active {
+  color:#D1262A;
+}
+
+/*Style the footer*/
+footer {
+  position: fixed; 
+  margin-left: auto;
+  margin-right: auto;
+  left: 0px;
+  right: 0px;
+  bottom: 0px; 
+  width: 100%;
+  padding: 1.5vw; 
+  text-align: center;
+  z-index: 5;
+  font-size: 1.125vw;
+  font-family: 'Bebas Neue', sans-serif;
+  color: #D1262A;
+  background-color: black;
+}
