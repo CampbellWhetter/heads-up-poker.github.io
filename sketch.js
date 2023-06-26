@@ -1,4 +1,4 @@
-//Intialize the deck array and fill it with the 52 cards.
+//Initialize the deck array and fill it with the 52 cards.
 const deck = [
   "2h",
   "2d",
@@ -54,7 +54,7 @@ const deck = [
   "Ac",
 ];
 
-/*Intialize the deckImages array and fill it with the variable name
+/*Initialize the deckImages array and fill it with the variable name
  *of each card in string format.*/
 const deckImages = [
   "twoH",
@@ -111,10 +111,10 @@ const deckImages = [
   "aceC",
 ];
 
-//Intialize the shortenedDeck array
+//Initialize the shortenedDeck array
 let shortenedDeck = [];
 
-//Intialize the card images variable names
+//Initialize the card images variable names
 let tenC;
 let tenD;
 let tenH;
@@ -180,49 +180,49 @@ let queenD;
 let queenH;
 let queenS;
 
-//Intialize the variable for the image of the back of a card
+//Initialize the variable for the image of the back of a card
 let backOfCard;
-//Intialize the variable for the images of the table
+//Initialize the variable for the images of the table
 let table;
 
-/*Intialize the gameRound and set it to zero to signify the start
+/*Initialize the gameRound and set it to zero to signify the start
  *screen.*/
 let gameRound = 0;
-/*Intialize the sectionCounter and set it to zero to signigy the
+/*Initialize the sectionCounter and set it to zero to signify the
  *start screen. This variable is distinct from the gameRound
  *variable as it needs to be changed before gameRound.*/
 let sectionCounter = 0;
 
-//Intialize the handUser array and the handComputer array
+//Initialize the handUser array and the handComputer array
 let handUser = [];
 let handComputer = [];
 
-//Intialize the first user card and its corresponding image variable
+//Initialize the first user card and its corresponding image variable
 let userCard1;
 let userCard1Img;
 
-/*Intialize the second user card and its corresponding image
+/*Initialize the second user card and its corresponding image
  *variable.*/
 let userCard2;
 let userCard2Img;
 
-/*Intialize showComputerCards. When this is equal to zero, the
+/*Initialize showComputerCards. When this is equal to zero, the
  *images for the computer cards will show the back of the cards.
  *When this is set to zero, the images will show the front of the
  *cards.*/
 let showComputerCards = 0;
 
-/*Intialize the first computer card and its corresponding image
+/*Initialize the first computer card and its corresponding image
  *variable.*/
 let computerCard1;
 let computerCard1Img;
 
-/*Intialize the second computer card and its corresponding image
+/*Initialize the second computer card and its corresponding image
  *variable.*/
 let computerCard2;
 let computerCard2Img;
 
-//Intialize the first flop card and its corresponding image variable
+//Initialize the first flop card and its corresponding image variable
 let flopCard1;
 let flopCard1Img;
 
@@ -236,54 +236,54 @@ let flopCard2Img;
 let flopCard3;
 let flopCard3Img;
 
-//Intialize the turn card and its corresponding image variable
+//Initialize the turn card and its corresponding image variable
 let turn;
 let turnImg;
 
-//Intialize the river card and its corresponding image variable
+//Initialize the river card and its corresponding image variable
 let river;
 let riverImg;
 
-//Intialize the flopCards, turnCards, and riverCards arrays
+//Initialize the flopCards, turnCards, and riverCards arrays
 let flopCards = [];
 let turnCards = [];
 let riverCards = [];
 
-//Intialize the user chips and computer chips and set them to 100
+//Initialize the user chips and computer chips and set them to 100
 let chipsUser = 100;
 let chipsComputer = 100;
 
-/*Intialize the chips that the user and computer have contributed
+/*Initialize the chips that the user and computer have contributed
  *this round of a hand and set them to 0.*/
 let chipsUserRound = 0;
 let chipsComputerRound = 0;
 
-/*Intailize the big blind. If this is equal to zero, the computer
+/*Initailize the big blind. If this is equal to zero, the computer
  *will be the big blind. If this is equal to one, the user will be
  *the big blind.*/
 let bigBlind = 0;
 
-//Intialize the canvas and its sizing and position variables.
+//Initialize the canvas and its sizing and position variables.
 let canvas;
 let canvasWidth;
 let canvasHeight;
 let canvasX;
 let canvasY;
 
-//Intialize the width and height of the card
+//Initialize the width and height of the card
 let cardWidth;
 let cardHeight;
 
-//Intialize the x-position variables for the two cards in a hand
+//Initialize the x-position variables for the two cards in a hand
 let handPositionX1;
 let handPositionX2;
 
-/*Intialize the y-positon variables for the computer cards and user
+/*Initialize the y-positon variables for the computer cards and user
  *cards.*/
 let computerPositionY;
 let userPositionY;
 
-//Intialize x-position variables for the five board cards.
+//Initialize x-position variables for the five board cards.
 let boardPositionX1;
 let boardPositionX2;
 let boardPositionX3;
@@ -293,39 +293,39 @@ let boardPositionX5;
 //Initialize the y-position variable for the five board cards
 let boardPositionY;
 
-//Intialize the variable for the loading screen image
+//Initialize the variable for the loading screen image
 let loadingScreenImg;
 
-//Intialize the opening screen buttons
+//Initialize the opening screen buttons
 let startButton;
 let howToPlayButton;
 
-//Intialize the action buttons
+//Initialize the action buttons
 let foldButton;
 let checkCallButton;
 let raiseAllInButton;
 
-/*Intialize the raiseAmountSlider. This lets the user choose the
+/*Initialize the raiseAmountSlider. This lets the user choose the
  *amount of their raise.*/
 let raiseAmountSlider;
 
-//Intialize the sizing variables for the action buttons
+//Initialize the sizing variables for the action buttons
 let actionButtonWidth;
 let actionButtonHeight;
 
-/*Intialize the x-position variables for the action buttons. Left
+/*Initialize the x-position variables for the action buttons. Left
  *means that the button will be to the left of the user cards and
  *right means that the button will be to the right of the user
  *cards.*/
 let actionButtonXLeft;
 let actionButtonXRight;
 
-/*Intialize the y-position variables for the action buttons. First
+/*Initialize the y-position variables for the action buttons. First
  *means that the button will be first vertically and so on.*/
 let actionButtonYFirst;
 let actionButtonYSecond;
 
-/*Intialize raiseAmountIndicatorRect and its corresponding sizing
+/*Initialize raiseAmountIndicatorRect and its corresponding sizing
  *and positioning variables. raiseAmountIndicatorRect acts as a text
  *box for raiseAmountIndicatorText.*/
 let raiseAmountIndicatorRect;
@@ -341,14 +341,14 @@ let raiseAmountIndicatorTextX;
 let raiseAmountIndicatorTextY;
 let raiseAmountIndicatorTextSize;
 
-//Intialize the raise amount and call amount
+//Initialize the raise amount and call amount
 let raiseAmount;
 let callAmount;
 
-//Intialize the computer raise amount
+//Initialize the computer raise amount
 let computerRaiseAmount;
 
-/*Intialize callAmountIndicatorRect and its corresponding sizing
+/*Initialize callAmountIndicatorRect and its corresponding sizing
  *and positioning variables. raiseAmountIndicatorRect acts as a text
  *box for callAmountIndicatorText.*/
 let callAmountIndicatorRect;
@@ -364,7 +364,7 @@ let callAmountIndicatorTextX;
 let callAmountIndicatorTextY;
 let callAmountIndicatorTextSize;
 
-/*Intialize userStackAmountIndicatorRect and its corresponding
+/*Initialize userStackAmountIndicatorRect and its corresponding
  *sizing and positioning variables. userStackAmountIndicatorRect
  *acts as a text box for userStackAmountIndicatorText.*/
 let userStackAmountIndicatorRect;
@@ -380,7 +380,7 @@ let userStackAmountIndicatorTextX;
 let userStackAmountIndicatorTextY;
 let userStackAmountIndicatorTextSize;
 
-/*Intialize computerStackAmountIndicatorRect and its corresponding
+/*Initialize computerStackAmountIndicatorRect and its corresponding
  *sizing and positioning variables. computerStackAmountIndicatorRect
  *acts as a text box for computerStackAmountIndicatorText.*/
 let computerStackAmountIndicatorRect;
@@ -396,7 +396,7 @@ let computerStackAmountIndicatorTextX;
 let computerStackAmountIndicatorTextY;
 let computerStackAmountIndicatorTextSize;
 
-/*Intialize gameRoundIndicatorRect and its corresponding
+/*Initialize gameRoundIndicatorRect and its corresponding
  *sizing and positioning variables. gameRoundIndicatorRect
  *acts as a text box for gameRoundIndicatorText.*/
 let gameRoundIndicatorRect;
@@ -412,10 +412,10 @@ let gameRoundIndicatorTextX;
 let gameRoundIndicatorTextY;
 let gameRoundIndicatorTextSize;
 
-//Intialize the pot
+//Initialize the pot
 let pot = 0;
 
-/*Intialize potIndicatorRect and its corresponding
+/*Initialize potIndicatorRect and its corresponding
  *sizing and positioning variables. potIndicatorRect
  *acts as a text box for potIndicatorText.*/
 let potIndicatorRect;
@@ -431,7 +431,7 @@ let potIndicatorTextX;
 let potIndicatorTextY;
 let potIndicatorTextSize;
 
-/*Intialize botDecisionIndicatorRect and its corresponding
+/*Initialize botDecisionIndicatorRect and its corresponding
  *sizing and positioning variables. botDecisionIndicatorRect
  *acts as a text box for botDecisionIndicatorText.*/
 let botDecisionIndicatorRect;
@@ -447,7 +447,7 @@ let botDecisionIndicatorTextX;
 let botDecisionIndicatorTextY;
 let botDecisionIndicatorTextSize;
 
-/*Intialize turnIndicatorRect and its corresponding
+/*Initialize turnIndicatorRect and its corresponding
  *sizing and positioning variables. turnIndicatorRect
  *acts as a text box for turnIndicatorText.*/
 let turnIndicatorRect;
@@ -463,44 +463,44 @@ let turnIndicatorTextX;
 let turnIndicatorTextY;
 let turnIndicatorTextSize;
 
-//Intialize the decision variable that will hold a number corresponding to the action of the bot. 1 means check/call. 2 means fold. 3 means raise.
+//Initialize the decision variable that will hold a number corresponding to the action of the bot. 1 means check/call. 2 means fold. 3 means raise.
 let decision;
 
-//Intialize the variables for the second and third randomization.
+//Initialize the variables for the second and third randomization.
 let r3;
 let r2;
 
-/*Intialize bluff. If this is equal to 1, the bot will be bluffing 
+/*Initialize bluff. If this is equal to 1, the bot will be bluffing 
  *and will be more likely to continue and be more aggresive in a 
  hand.*/
 let bluff;
 
-/*Intialize allIn and set it to 0. If this is equal to 0, no one has
- *gone all in. If this is equal to 1, the user was the first to go
- *all in, meaning the computer needs to call for the hand to
- *continue. If this is equal to 2, the computer was the firt to go
- *all in, meaning the user needs to call for the hand to continue*/
+/*Initialize allIn and set it to 0. If this is equal to 0, no one has
+ *gone all-in. If this is equal to 1, the user was the first to go
+ *all-in, meaning the computer needs to call for the hand to
+ *continue. If this is equal to 2, the computer was the first to go
+ *all-in, meaning the user needs to call for the hand to continue*/
 let allIn = 0;
 
-//Intialize the variables for the two fonts.
+//Initialize the variables for the two fonts.
 let bebasNeue;
 let wixMadeFor;
 
-/*Intialize handComputerRank. This will be used in the bot's
+/*Initialize handComputerRank. This will be used in the bot's
  *decision.*/
 let handComputerRank;
 
-/*Intialize callCounter. This will ensure that hand proceeds to the
+/*Initialize callCounter. This will ensure that hand proceeds to the
  *next section once the user has called and the game state is
  *appropriate.*/
 let callCounter = 0;
 
-/*Intialize callCounterComputer. This will ensure that hand proceeds
+/*Initialize callCounterComputer. This will ensure that hand proceeds
  *to the next section once the computer has called and the game
  *state is appropriate.*/
 let callCounterComputer = 0;
 
-/*Intialize raiseCounter. This will determine whether the computer
+/*Initialize raiseCounter. This will determine whether the computer
  *can check or if it must call.*/
 let raiseCounter = 0;
 
@@ -573,12 +573,12 @@ function preload() {
   queenH = loadImage("cards/Qh.png");
   queenS = loadImage("cards/Qs.png");
 
-  //Preload the backOfCard, table, and loadingScreenImg images.
+  //Preload the backOfCard, table, and loadingScreenImg images
   backOfCard = loadImage("backOfCard.png");
   table = loadImage("table.png");
   loadingScreenImg = loadImage("loadingScreenImg.jpg");
 
-  //Preload the fonts. These fonts are from Google Fonts.
+  //Preload the fonts. These fonts are from Google Fonts
   bebasNeue = loadFont("fonts/BebasNeue-Regular.ttf");
   wixMadeFor = loadFont("fonts/WixMadeforText-Regular.ttf");
 }
@@ -592,11 +592,11 @@ function setup() {
   canvasX = windowWidth / 2 - canvasWidth / 2;
   canvasY = windowHeight / 2 - canvasHeight / 2;
 
-  //Create the canvas, size it, and position it.
+  //Create the canvas, size it, and position it
   canvas = createCanvas(canvasWidth, canvasHeight);
   canvas.position(canvasX, canvasY);
 
-  /*Specify the parent of the canvas. This allows to adjust the z-
+  /*Specify the parent of the canvas. This allows adjustment of the z-
    *index and positioning style.*/
   canvas.parent("sketch-container");
 
@@ -714,12 +714,12 @@ function draw() {
   }
 
   /*If the value of the raiseAmountSlider is equal to the value of
-   *chipsUser, the user wants to go all in. Therefore, change the
-   *raiseAllInButton to say 'All In'. If this is not the case, the
+   *chipsUser, the user wants to go all-in. Therefore, change the
+   *raiseAllInButton to say 'All-In'. If this is not the case, the
    *user wants to raise or can only raise. Therefore, ensure that
    *the button says 'Raise'.*/
   if (raiseAmountSlider.value() == chipsUser) {
-    raiseAllInButton.html("All In");
+    raiseAllInButton.html("All-In");
   } else {
     raiseAllInButton.html("Raise");
   }
@@ -758,7 +758,7 @@ function redrawElements() {
   }
 }
 
-/*This handles windowResizing. It will update all of variables and
+/*This handles windowResizing. It will update all of variables necessary and
  *redraw the elememts on the screen.*/
 function windowResized() {
   canvasWidth = windowWidth * 0.75;
@@ -926,7 +926,7 @@ function flop() {
 
   flopImages();
 
-  /*Check if anyone is all in. If not and the computer is the big
+  /*Check if anyone is all-in. If not and the computer is the big
    *blind, send for the bot's decision. If not and the user is the
    *big blind, send for the user's decision.*/
   if (allIn < 1) {
@@ -951,7 +951,7 @@ function turnRiver(section) {
   section.push(shortenedDeck.pop());
 
   /*Add the card from the appropriate section into the user's hand
-   *and the computer's hand. Do not remove the card from the array of   *the section.*/
+   *and the computer's hand. Do not remove the card from the array of the section.*/
   splice(handUser, section, 4);
   splice(handComputer, section, 4);
 
@@ -972,7 +972,7 @@ function turnRiver(section) {
     riverImages();
   }
 
-  /*Check if anyone is all in. If not and the computer is the big
+  /*Check if anyone is all-in. If not and the computer is the big
    *blind, send for the bot's decision. If not and the user is the
    *big blind, send for the user's decision.*/
   if (allIn < 1) {
@@ -988,7 +988,7 @@ function evaluate() {
   //Assign the first card in the computer's hand to computerCard1
   computerCard1 = handComputer[0];
   /*Find the index position of computerCard1 in the deck array. Use
-   *this index position to get the string of the variable from
+   *this index position to get the string of the variable name from
    *deckImages for the appropriate card.*/
   computerCard1Img = deckImages[deck.indexOf(computerCard1)];
 
@@ -996,7 +996,7 @@ function evaluate() {
   computerCard2 = handComputer[1];
   computerCard2Img = deckImages[deck.indexOf(computerCard2)];
   /*Find the index position of computerCard2 in the deck array. Use
-   *this index position to get the string of the variable from
+   *this index position to get the string of the variable name from
    *deckImages for the appropriate card.*/
 
   //Redraw the visible elements.
@@ -1021,6 +1021,8 @@ function evaluate() {
     chipsComputer += pot;
     pot = 0;
     if (chipsUser == 0) {
+       /*SetTimeout is used a plethora of times within this program. It is an excellent 
+        *way to add pacing to the game.*/
       setTimeout(redrawElements, 5000);
       setTimeout(
         drawBotDecisionIndicator,
@@ -1166,15 +1168,15 @@ function riverImages() {
 
 /*This function is assigned to the 'How To Play' button. Upon
  *execution, it takes the user to the GitHub repository for this
- *projection, where a how top play section can be found.
+ *projection, where a how to play section can be found.
  */
 function openHowToPlay() {
-  window.open("https://github.com/CampbellWhetter/heads-up-poker.github.io#how-to-play");
+  window.open("https://github.com/CampbellWhetter/heads-up-poker.github.io");
 }
 
 /*The following for drawing indicators and amounts are relatively
  *self-evident. I will note that each one uses a text box to add
- *aesthetically pleasing contrast. In order to do, I have used
+ *aesthetically pleasing contrast. In order to do this, I have used
  *textBounds, which, most importantly, provides the width of the
  *text.*/
 function drawRaiseAmount() {
@@ -1569,7 +1571,7 @@ function botDecision() {
 
   if (decision == 1) {
     if (allIn >= 1) {
-      /*If the bot calls the all in by the user, the round should continue until the end. 
+      /*If the bot calls the all-in by the user, the round should continue until the end. 
        *There are no more opportunities for betting.*/
       
       if (sectionCounter >= 1) {
@@ -1586,9 +1588,9 @@ function botDecision() {
       }
     } else {
       if (chipsUserRound > chipsComputerRound) {
-        /*If the bot decision is equal to 1, meaning check/call and there is a difference 
-         *between chipsUserRound and chipsComputerRound, the bot will call the amount of 
-         *that difference.*/
+        /*If the bot decision is equal to 1, meaning check/call, and there is a  
+         *difference between chipsUserRound and chipsComputerRound, the bot will call the 
+         *amount of that difference.*/
         
         callAmount = chipsUserRound - chipsComputerRound;
 
@@ -1597,13 +1599,17 @@ function botDecision() {
         chipsComputer -= callAmount;
         drawBotDecisionIndicator("I call");
       } else {
-        /*If the bot decision is equal to 1, meaning check/call and there is no 
+        /*If the bot decision is equal to 1, meaning check/call, and there is no 
         difference between chipsUserRound and chipsComputerRound, the bot will check.*/
         
         drawBotDecisionIndicator("I check");
       }
       if (bigBlind == 0) {
         if (sectionCounter >= 2) {
+          /*If the computer is the big blind and the section of the hand is at or after 
+           *the flop, the computer will go first. Therefore, the user will be asked to 
+           *make their decision before moving on to the next section*/
+          
           if (sectionCounter == 2) {
             setTimeout(userDecision, 1500);
           } else if (sectionCounter == 3) {
@@ -1612,17 +1618,30 @@ function botDecision() {
             setTimeout(userDecision, 1500);
           }
         } else {
+          /*If the computer is the big blind and the section of the hand is the deal,
+          the game will move to the flop after the computer's decision.*/
+          
           setTimeout(flop, 1500);
         }
       } else {
         if (sectionCounter == 1) {
           if (callCounterComputer == 1) {
+            /*If the computer is the small blind and the user raises when the computer 
+             *has already called, the game will move to the flop if the computer calls 
+             *again.*/
+            
             setTimeout(flop, 1500);
           } else {
+            /*If the computer has not called this section, the user will be asked to make 
+             *their decision before moving on to the next section.*/
             setTimeout(userDecision, 1500);
           }
           callCounterComputer++;
-        } else if (sectionCounter == 2) {
+        } 
+        /*Beyond the deal, if the computer is the small blind and calls, the game will 
+         *move to the next section.*/
+        
+        else if (sectionCounter == 2) {
           setTimeout(function () {
             turnRiver(turnCards);
           }, 1500);
@@ -1636,6 +1655,7 @@ function botDecision() {
       }
     }
   } else if (decision == 2) {
+    //If the computer folds the following will occur
     chipsUser += pot;
     redrawElements();
     resetHand();
@@ -1654,13 +1674,20 @@ function botDecision() {
     }
     setTimeout(deal, 3000);
   } else if (decision == 3) {
+    
+    /*If the computer raises when it can only raise by one, the computer will raise by 
+     *one.*/
     if (
       (chipsUser == 1 && chipsComputer >= 1) ||
       (chipsComputer == 1 && chipsUser >= 1)
     ) {
       computerRaiseAmount = 1;
-      print("This is trigerred");
-    } else {
+    } 
+    
+    //If the computer is able to raise by more than one, the following will occur
+    /*The program will generate one random number to determine the range of the raise and 
+     *then another random number to determine an amount within that range.*/
+    else {
       r2 = random(1, 100);
       if (r2 <= 40) {
         r3 = random(0.1, 0.2);
@@ -1670,13 +1697,24 @@ function botDecision() {
         r3 = random(0.3, 0.5);
       }
 
+      /*A player can only raise at most the amount of the smallest stack. Therefore, if 
+       *r2 is greater than 90, the bot must test the smallest stack and raise the amount 
+       *of that stack.*/
       if (r2 > 90) {
         if (chipsUser <= chipsComputer) {
           computerRaiseAmount = chipsUser;
         } else {
           computerRaiseAmount = chipsComputer;
         }
-      } else {
+      } 
+      /*If the bot does not want to raise the full amount of a stack, it will perform 
+       *additional calculations. First, it determines the minimum amount that it has to 
+       *raise (chipsComputerRound - chipsUserRound). Next, it determines the maximum 
+       *amount it can raise and multiples this by r3, which represents the amount within 
+       *a range. Eventually, it takes the first part and adds the second part to 
+       *determine the amount of its raise.*/
+      
+      else {
         if (chipsUser <= chipsComputer) {
           computerRaiseAmount =
             chipsComputerRound -
@@ -1692,13 +1730,20 @@ function botDecision() {
         }
       }
     }
+    
+    /*If the bot's raise amount is equal to the number of its chips, it wants to go all 
+     *in. Therefore, let the user know this and set allIn equal to 2, meaning that 
+     *the bot has gone all-in.*/
     if (computerRaiseAmount == chipsComputer) {
-      drawBotDecisionIndicator("All In!");
+      drawBotDecisionIndicator("All-In!");
       allIn = 2;
     } else {
+      //If the bot has not gone all-in, it will raise. Therefore, let the user know this.
+      
       drawBotDecisionIndicator("I raise " + computerRaiseAmount + " chips");
     }
 
+    //Adjust the necessary variables.
     pot += computerRaiseAmount;
     chipsComputerRound += computerRaiseAmount;
     chipsComputer -= computerRaiseAmount;
@@ -1711,6 +1756,9 @@ function userDecision() {
   print("Yes");
 
   if (bigBlind == 0 && sectionCounter == 1) {
+    /*If the computer is the big blind and the section is the deal, the user can fold, 
+     *call, or raise. Therefore, display the appropriate inputs and indicators.*/
+    
     checkCallButton.html("Call");
     callAmount = chipsComputerRound - chipsUserRound;
 
@@ -1723,6 +1771,10 @@ function userDecision() {
     drawCallAmount(callAmount);
   } else if (bigBlind == 1 && sectionCounter == 1) {
     if (decision == 1) {
+      /*If the user is the big blind, the section is the deal, and the computer has 
+      *called, the user can fold, check, or raise. Therefore, display the appropriate 
+      *inputs and indicators.*/
+      
       redrawElements();
 
       foldButton.show();
@@ -1733,6 +1785,10 @@ function userDecision() {
       drawRaiseAmount();
     }
     if (decision == 3) {
+      /*If the user is the big blind, the section is the deal, and the computer has 
+       *raised, the user can fold, call, or raise. Therefore, display the appropriate 
+       *inputs and indicators.*/
+      
       foldButton.show();
       checkCallButton.html("Call");
       checkCallButton.show();
@@ -1744,6 +1800,10 @@ function userDecision() {
     }
   } else if (bigBlind == 0 && sectionCounter > 1) {
     if (decision == 1) {
+      /*If the computer is the big blind, the section is past the deal, and the computer 
+       *has call/checked, the user can fold, check, or raise. Therefore, display the 
+       *appropriate inputs and indicators.*/
+      
       redrawElements();
 
       foldButton.show();
@@ -1756,17 +1816,30 @@ function userDecision() {
     if (decision == 3) {
       callAmount = chipsComputerRound - chipsUserRound;
       if (allIn == 1) {
+        /*If the computer is the big blind, the section is past the deal, and the user's 
+         *all-in has been called, the user cannot perform an action until the next 
+         *action. Therefore, hide the necessary elements and indicators.*/
+        
+        redrawElements();
         raiseAmountSlider.hide();
         raiseAllInButton.hide();
         foldButton.hide();
         checkCallButton.hide();
       } else if (allIn == 2) {
+        /*If the computer is the big blind, the section is past the deal, and the 
+         *computer goes all-in, the user can fold or call. Therefore, display 
+         *the necessary elements and indicators.*/
+        
         raiseAllInButton.hide();
         foldButton.show();
         checkCallButton.html("Call");
         checkCallButton.show();
         drawCallAmount(callAmount);
       } else {
+        /*If the computer is the big blind, the section is past the deal, and the 
+        computer raises, the user can fold, call, or raise. Therefore, display 
+         *the necessary elements and indicators.*/
+        
         raiseAmountSlider.attribute("min", callAmount + 1);
         raiseAllInButton.show();
         raiseAmountSlider.show();
@@ -1777,6 +1850,9 @@ function userDecision() {
       }
     }
   } else if (bigBlind == 1 && sectionCounter > 1) {
+    /*If the user is the big blind and the section is past the deal, the user will go 
+    first. Therefore, the user can fold, check, or raise.*/
+    
     redrawElements();
 
     foldButton.show();
@@ -1788,6 +1864,8 @@ function userDecision() {
   }
 }
 
+
+//If the user presses the fold button, execute the following
 function fold() {
   chipsComputer += pot;
   resetHand();
@@ -1803,6 +1881,7 @@ function fold() {
       drawBotDecisionIndicator("You have the two chip big blind");
     }, 1500);
   }
+  
   setTimeout(deal, 3000);
 }
 
@@ -1814,6 +1893,7 @@ function checkCall() {
   pot += callAmount;
   callCounter++;
 
+  //If the user calls the computer's all-in, simulate the rest of the hand
   if (chipsUser == 0 || chipsComputer == 0 || allIn == 2) {
     if (sectionCounter == 1) {
       flop();
@@ -1828,10 +1908,16 @@ function checkCall() {
       evaluate();
     }
   } else {
+  
     if (bigBlind == 0) {
+      
+      /*If the computer is the big blind and the section is the deal, when the user  
+      calls, ask for the bot's decision after 1 second.*/
       if (sectionCounter == 1) {
         setTimeout(botDecision, 1000);
       } else {
+        /*If the computer is the big blind and the section is past the deal, move on to 
+         *the next section when the user calls.*/
         if (sectionCounter == 2) {
           setTimeout(function () {
             turnRiver(turnCards);
@@ -1845,9 +1931,13 @@ function checkCall() {
         }
       }
     } else {
+      /*If the user is the big blind and the section is the deal, when the user  
+      calls, move to the flop.*/
       if (sectionCounter == 1) {
         setTimeout(flop, 1000);
       } else {
+        /*If the user is the big blind and the section is past the deal, when the user 
+         *calls, ask for the bot decision.*/
         botDecision();
       }
     }
@@ -1856,12 +1946,16 @@ function checkCall() {
 }
 
 function raiseAllIn() {
+  //Adjust the chipsUser, chipsUserRound, and pot based on the value of the slider.
   chipsUser -= raiseAmountSlider.value();
   chipsUserRound += raiseAmountSlider.value();
   pot += raiseAmountSlider.value();
 
   raiseCounter++;
 
+  /*If the value of the raise amount slider is equal to the amount of the user's chips or 
+   *computer's, set all-in equal to one, meaning that the user has essentially gone all   
+   *in.*/
   if (
     raiseAmountSlider.value() == chipsUser ||
     raiseAmountSlider.value() == chipsComputer
@@ -1869,12 +1963,15 @@ function raiseAllIn() {
     allIn = 1;
   }
 
+  /*If the value of the raise amount slider is greater than or equal to 1, ask for the 
+   *bot's decision. Else, do nothing as you cannot raise for an amount less than 1.*/
   if (raiseAmountSlider.value() >= 1) {
     botDecision();
   }
 }
 
 function resetHand() {
+  //When reset hand is call set appropriate variables back to their original state.
   handUser = [];
   handComputer = [];
   shortenedDeck = [];
@@ -1892,11 +1989,13 @@ function resetHand() {
   bluff = 0;
   allIn = 0;
 
+  //Hide the buttons and slider
   foldButton.hide();
   checkCallButton.hide();
   raiseAllInButton.hide();
   raiseAmountSlider.hide();
 
+  //Alternate the big blind
   if (bigBlind == 0) {
     bigBlind = 1;
   } else {
@@ -1926,12 +2025,11 @@ function algorithm() {
   if (sectionCounter == 1) {
     /*If it is the deal, the bot is more willing to call or 
      *raise as it will cost less. Therefore, the bot is 
-     *measuring for only the equivalent of an two eights.*/
+     *measuring for only the equivalent of two eights.*/
     if (computerCard1Index + computerCard2Index >= 48) {
       /*If the bot is not the big blind, it can either fold, 
        *call, or raise. With a hand of this strength, the bot 
-       *will never
-       *fold. Most likely, it will call.*/
+       *will never fold. Most likely, it will call.*/
       if (bigBlind == 1) {
         if (r <= 80) {
           decision = 1;
@@ -1972,7 +2070,7 @@ function algorithm() {
       } else if (bigBlind == 0) {
       /*With a worse hand, the bot should be less willing to 
        *call raises and reraises. Note: calling raises and 
-       *resaises is handle by the first else if statement.*/
+       *resaises is handled by the first else if statement.*/
         if (r <= 40) {
           decision = 1;
         } else if (r > 40 && r <= 90) {
@@ -1989,7 +2087,7 @@ function algorithm() {
       }
     }
   } else if (sectionCounter >= 2) {
-    /*Now that hand is at or the flop, a hand combined with the 
+    /*Now that hand is at or past the flop, a hand combined with the 
      *board will be larger than three cards. Thus, the bot can 
      *use pokersolver.js to get the rank of its hand, where 
      *higher is better.*/
@@ -2075,11 +2173,11 @@ function algorithm() {
             if (computerCard1Index + computerCard2Index >= 80) {
               if (sectionCounter >= 3) {
                 /*If the computer's hand is better than or equal 
-                 *to a three pair, the two cards are equal to or 
-                 *greater than the equivalent of two queees, and 
+                 *to a three-pair, the two cards are equal to or 
+                 *greater than the equivalent of two queens, and 
                  *the amount to call would be more than 75% of 
                  *the user's chips, the bot is very likely to 
-                 *call with a good change to raise*/
+                 *call with a good chance to raise*/
 
                 if (r <= 70) {
                   decision = 1;
@@ -2095,7 +2193,7 @@ function algorithm() {
                   }
                 }
               } else {
-              /*If it is earlier in the game than turn, the bot 
+              /*If it is earlier in the game than the turn, the bot 
                *will have put less into the pot and will be more 
                *inclined to fold.*/
                 if (r <= 50) {
@@ -2115,8 +2213,8 @@ function algorithm() {
             }
           } else {
             /*If the computer's hand is better than or equal to
-             *a three pair, the two cards are worse
-             *than the equivalent of two queees, and the amount
+             *a three-pair, the two cards are worse
+             *than the equivalent of two queens, and the amount
              *to call would be less than or equal to 75% of the
              *user's chips, the bot will be more inclined to 
              *call and less inclined to raise.*/
@@ -2136,8 +2234,8 @@ function algorithm() {
           }
         } else {
           /*If the computer's hand is worse than
-           *a three pair, the two cards are worse
-           *than the equivalent of two queees, and the amount
+           *a three-pair, the two cards are worse
+           *than the equivalent of two queens, and the amount
            *to call would be less than or equal to 75% of the
            *user's chips, the bot may want to bluff. If it does 
            *not bluff, it is likely to call.*/
