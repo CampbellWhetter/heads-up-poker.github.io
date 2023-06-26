@@ -1169,7 +1169,7 @@ function riverImages() {
  *projection, where a how top play section can be found.
  */
 function openHowToPlay() {
-  window.open("https://github.com/CampbellWhetter/heads-up-poker.github.io");
+  window.open("https://github.com/CampbellWhetter/heads-up-poker.github.io#how-to-play");
 }
 
 /*The following for drawing indicators and amounts are relatively
